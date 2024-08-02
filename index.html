@@ -25,7 +25,7 @@
     <input type="text" id="messageInput" placeholder="Digite sua mensagem aqui..." />
 
     <script>
-        const ws = new WebSocket('ws://nodewebsocket1-production.up.railway.app');
+        const ws = new WebSocket('wss://nodewebsocket1-production.up.railway.app');
 
         ws.onopen = () => {
             console.log('Connected to the server');
